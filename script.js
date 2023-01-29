@@ -8,16 +8,16 @@ let masterSongName = document.getElementById("masterSongName");
 let songItems = Array.from(document.getElementsByClassName("songItem"));
 
 let songs = [
-    {songName : "Gumaan", filePath: "./songs/1.mp3", coverPath: "./covers/1.jpg"},
-    {songName : "Gumaan", filePath: "./songs/2.mp3", coverPath: "./covers/2.jpg"},
-    {songName : "Gumaan", filePath: "./songs/3.mp3", coverPath: "./covers/3.jpg"},
-    {songName : "Gumaan", filePath: "./songs/4.mp3", coverPath: "./covers/4.jpg"},
-    {songName : " Gumaan", filePath: "./songs/5.mp3", coverPath: "./covers/5.jpg"},
-    {songName : " Gumaan", filePath: "./songs/6.mp3", coverPath: "./covers/6.jpg"},
-    {songName : " Gumaan", filePath: "./songs/7.mp3", coverPath: "./covers/7.jpg"},
-    {songName : " Gumaan", filePath: "./songs/8.mp3", coverPath: "./covers/8.jpg"},
-    {songName : " Gumaan", filePath: "./songs/9.mp3", coverPath: "./covers/9.jpg"},
-    {songName : " Gumaan", filePath: "./songs/10.mp3", coverPath: "./covers/10.jpg"}
+    {songName : "Sky Same", filePath: "./songs/1.mp3", coverPath: "./covers/1.jpg"},
+    {songName : "World Attach", filePath: "./songs/2.mp3", coverPath: "./covers/2.jpg"},
+    {songName : "Janji Way", filePath: "./songs/3.mp3", coverPath: "./covers/3.jpg"},
+    {songName : "Sky Night", filePath: "./songs/4.mp3", coverPath: "./covers/4.jpg"},
+    {songName : "Pop Ground", filePath: "./songs/5.mp3", coverPath: "./covers/5.jpg"},
+    {songName : "Afsanay", filePath: "./songs/6.mp3", coverPath: "./covers/6.jpg"},
+    {songName : "Benz | Je Appalle", filePath: "./songs/7.mp3", coverPath: "./covers/7.jpg"},
+    {songName : "Your Body Light Weight", filePath: "./songs/8.mp3", coverPath: "./covers/8.jpg"},
+    {songName : "Gumaan", filePath: "./songs/9.mp3", coverPath: "./covers/9.jpg"},
+    {songName : "Paramore", filePath: "./songs/10.mp3", coverPath: "./covers/10.jpg"}
 ]
 
 songItems.forEach((element, i) => {
