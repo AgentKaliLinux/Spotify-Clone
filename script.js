@@ -17,7 +17,21 @@ let songs = [
     {songName : "Benz | Je Appalle", filePath: "./songs/7.mp3", coverPath: "./covers/7.jpg"},
     {songName : "Your Body Light Weight", filePath: "./songs/8.mp3", coverPath: "./covers/8.jpg"},
     {songName : "Gumaan", filePath: "./songs/9.mp3", coverPath: "./covers/9.jpg"},
-    {songName : "Paramore", filePath: "./songs/10.mp3", coverPath: "./covers/10.jpg"}
+    {songName : "Hieg Sky", filePath: "./songs/10.mp3", coverPath: "./covers/10.jpg"},
+    {songName : "BENZ", filePath: "./songs/11.mp3", coverPath: "./covers/11.jpg"},
+    {songName : "Belli Elish", filePath: "./songs/12.mp3", coverPath: "./covers/12.jpg"},
+    {songName : "Coke Studio", filePath: "./songs/13.mp3", coverPath: "./covers/13.jpg"},
+    {songName : "Eminem", filePath: "./songs/14.mp3", coverPath: "./covers/14.jpg"},
+    {songName : "Excuse", filePath: "./songs/15.mp3", coverPath: "./covers/15.jpg"},
+    {songName : "Bewafa", filePath: "./songs/16.mp3", coverPath: "./covers/16.jpg"},
+    {songName : "Shake", filePath: "./songs/17.mp3", coverPath: "./covers/17.jpg"},
+    {songName : "Jhoom Jo Pathan", filePath: "./songs/18.mp3", coverPath: "./covers/18.jpg"},
+    {songName : "Kahani Suno", filePath: "./songs/19.mp3", coverPath: "./covers/19.jpg"},
+    {songName : "Tu Ake Dekhle", filePath: "./songs/20.mp3", coverPath: "./covers/20.jpg"},
+    {songName : "Hope", filePath: "./songs/21.mp3", coverPath: "./covers/21.jpg"},
+    {songName : "Zara Sa", filePath: "./songs/22.mp3", coverPath: "./covers/22.jpg"},
+    {songName : "Dusk Till Dawn", filePath: "./songs/23.mp3", coverPath: "./covers/23.jpg"},
+
 ]
 
 songItems.forEach((element, i) => {
@@ -79,7 +93,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element) =>
 });
 
 document.getElementById('next').addEventListener('click', () => {
-    if(songIndex>=9){
+    if(songIndex>=22){
         songIndex = 0;
     }
     else{
